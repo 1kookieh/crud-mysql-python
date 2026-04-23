@@ -1,0 +1,30 @@
+# Segredos
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Build / distribuição
+build/
+dist/
+*.egg-info/

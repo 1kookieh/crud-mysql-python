@@ -1,0 +1,11 @@
+# Normalização de line-endings para evitar diffs falsos entre SOs.
+* text=auto eol=lf
+
+# Scripts Windows
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binários
+*.png binary
+*.jpg binary
+*.ico binary
