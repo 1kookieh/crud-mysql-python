@@ -12,13 +12,19 @@ com interface gráfica em Tkinter e persistência em MySQL 8.
 > transações com rollback automático e tradução de erros do MySQL em mensagens
 > amigáveis para o usuário final.
 
-## 🖼️ Demo
+## Problema resolvido
 
-> _Screenshot em breve — adicione `docs/img/app.png` e referencie aqui._
+Pequenos sistemas internos normalmente começam como planilhas ou cadastros manuais sem validação, histórico claro de operações ou tratamento consistente de erro. Este projeto organiza esse fluxo em uma aplicação desktop simples, com persistência relacional, regras de validação e separação entre interface, lógica de negócio e acesso ao banco.
+
+## Demo
+
+> [PREENCHER: adicionar screenshot real da tela principal em `docs/img/app.png`]
+
+Enquanto a imagem real não estiver disponível, consulte [docs/demo.md](docs/demo.md) para ver o fluxo demonstrável em entrevista.
 
 ---
 
-## ✨ Recursos
+## Recursos
 
 - **CRUD completo**: cadastrar, listar, editar e excluir.
 - **Busca em tempo real** por nome, email ou telefone.
@@ -30,9 +36,18 @@ com interface gráfica em Tkinter e persistência em MySQL 8.
 - **Validação** de entrada (nome, email, tamanho máximo).
 - **Separação em camadas**: UI / CRUD / database / config / models / errors.
 
+## O que este projeto demonstra
+
+- Construção de uma aplicação desktop funcional com Python e Tkinter.
+- Integração com MySQL usando pool de conexões e transações.
+- Organização em camadas para separar interface, regras de negócio e persistência.
+- Validação de dados antes de gravar no banco.
+- Tratamento de erros técnicos com mensagens compreensíveis para o usuário.
+- Uso de `.env.example`, SQL versionado, documentação e CI para melhorar a experiência de quem avalia ou executa o projeto.
+
 ---
 
-## 📁 Estrutura
+## Estrutura
 
 ```
 crud_app/
@@ -58,14 +73,14 @@ crud_app/
 
 ---
 
-## ✅ Pré-requisitos
+## Pré-requisitos
 
 - **Python 3.10+**
 - **MySQL 8.x** rodando em `localhost:3306` (ou host/porta equivalentes)
 
 ---
 
-## 🚀 Instalação
+## Instalação
 
 ```powershell
 # 1. Clonar o repositório
@@ -97,7 +112,7 @@ DB_NAME=crud_app
 
 ---
 
-## 🗄️ Criar o banco de dados
+## Criar o banco de dados
 
 **Opção A — via Python (recomendado)**:
 
@@ -109,7 +124,7 @@ py scripts/init_db.py
 
 ---
 
-## ▶️ Executar
+## Executar
 
 ```powershell
 py main.py
@@ -117,7 +132,7 @@ py main.py
 
 ---
 
-## ⌨️ Atalhos
+## Atalhos
 
 | Atalho | Ação |
 | --- | --- |
@@ -129,7 +144,7 @@ py main.py
 
 ---
 
-## 🧪 Testes manuais
+## Testes manuais
 
 ### Inicialização
 - [ ] Sem `.env` → mensagem "Variável de ambiente obrigatória ausente".
@@ -159,7 +174,7 @@ py main.py
 
 ---
 
-## 🔐 Segurança
+## Segurança
 
 - Todas as queries usam parâmetros (`%s`) → **sem SQL Injection**.
 - Escritas executam dentro de **transação** com commit/rollback automáticos.
@@ -169,7 +184,7 @@ py main.py
 
 ---
 
-## 🧱 Schema
+## Schema
 
 ```sql
 CREATE TABLE registros (
@@ -183,7 +198,7 @@ CREATE TABLE registros (
 
 ---
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 ```
 ┌──────────────┐
@@ -210,7 +225,7 @@ CREATE TABLE registros (
 
 ---
 
-## 🛠️ Solução de problemas
+## Solução de problemas
 
 | Sintoma | Causa | Solução |
 | --- | --- | --- |
@@ -223,7 +238,7 @@ CREATE TABLE registros (
 
 ---
 
-## 📦 Dependências
+## Dependências
 
 ```text
 mysql-connector-python==9.1.0
@@ -234,7 +249,7 @@ Instaladas com `pip install -r requirements.txt`.
 
 ---
 
-## 🗺️ Próximas melhorias
+## Próximas melhorias
 
 - [ ] Testes automatizados com `pytest`.
 - [ ] Paginação server-side.
@@ -245,6 +260,6 @@ Instaladas com `pip install -r requirements.txt`.
 
 ---
 
-## 📄 Licença
+## Licença
 
 MIT — veja [LICENSE](LICENSE).
