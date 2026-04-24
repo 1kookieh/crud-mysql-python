@@ -18,9 +18,9 @@ Pequenos sistemas internos normalmente começam como planilhas ou cadastros manu
 
 ## Demo
 
-> [PREENCHER: adicionar screenshot real da tela principal em `docs/img/app.png`]
+![Tela principal do CRUD Desktop](docs/img/app.png)
 
-Enquanto a imagem real não estiver disponível, consulte [docs/demo.md](docs/demo.md) para ver o fluxo demonstrável em entrevista.
+Consulte [docs/demo.md](docs/demo.md) para ver o fluxo demonstrável em entrevista.
 
 ---
 

@@ -4,7 +4,7 @@ Este documento descreve como demonstrar o `crud-mysql-python` sem inventar image
 
 ## Demonstração visual
 
-[PREENCHER: adicionar screenshot real da tela principal em `docs/img/app.png`]
+![Tela principal do CRUD Desktop](img/app.png)
 
 [PREENCHER: opcionalmente adicionar GIF curto em `docs/img/demo.gif` mostrando cadastro, busca, edição e exclusão]
 
