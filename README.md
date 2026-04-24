@@ -1,7 +1,20 @@
 # CRUD Desktop — Python + Tkinter + MySQL
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![CI](https://github.com/1kookieh/crud-mysql-python/actions/workflows/ci.yml/badge.svg)](https://github.com/1kookieh/crud-mysql-python/actions/workflows/ci.yml)
+
 Aplicação desktop para gestão local de registros (nome, email, telefone),
 com interface gráfica em Tkinter e persistência em MySQL 8.
+
+> Projeto de portfólio com foco em arquitetura em camadas, pool de conexões,
+> transações com rollback automático e tradução de erros do MySQL em mensagens
+> amigáveis para o usuário final.
+
+## 🖼️ Demo
+
+> _Screenshot em breve — adicione `docs/img/app.png` e referencie aqui._
 
 ---
 
