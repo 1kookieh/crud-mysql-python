@@ -12,6 +12,19 @@ com interface gráfica em Tkinter e persistência em MySQL 8.
 > transações com rollback automático e tradução de erros do MySQL em mensagens
 > amigáveis para o usuário final.
 
+## Resumo para recrutadores
+
+Este projeto demonstra a construção de uma aplicação desktop completa em Python, com integração real a banco de dados, validação de entrada, tratamento de erros e separação entre interface, regras de negócio e persistência.
+
+Pontos técnicos principais:
+
+- interface gráfica em Tkinter;
+- MySQL com pool de conexões;
+- transações com rollback automático;
+- validação de dados antes da gravação;
+- camada de erros própria para mensagens amigáveis;
+- documentação com screenshot, schema SQL e roteiro de demo.
+
 ## Problema resolvido
 
 Pequenos sistemas internos normalmente começam como planilhas ou cadastros manuais sem validação, histórico claro de operações ou tratamento consistente de erro. Este projeto organiza esse fluxo em uma aplicação desktop simples, com persistência relacional, regras de validação e separação entre interface, lógica de negócio e acesso ao banco.
@@ -84,8 +97,8 @@ crud_app/
 
 ```powershell
 # 1. Clonar o repositório
-git clone <url-do-repo>
-cd crud_app
+git clone https://github.com/1kookieh/crud-mysql-python.git
+cd crud-mysql-python
 
 # 2. Criar e ativar ambiente virtual
 py -m venv .venv
