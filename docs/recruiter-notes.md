@@ -53,4 +53,4 @@ MySQL externo.
 
 ## Autor
 
-**Kaká** — [@1kookieh](https://github.com/1kookieh)
+**Igor** — [@1kookieh](https://github.com/1kookieh)
